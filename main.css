@@ -1,4 +1,4 @@
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
 * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 div{
@@ -35,3 +35,19 @@ li{
 .grey{color:#000!important;background-color:#9e9e9e!important}
 .light-grey{color:#000!important;background-color:#f1f1f1!important}
 .pink{color:#000!important;background-color:pink!important}
+
+/* main */
+body {
+  background: url("img_bg.png") no-repeat fixed center;
+}
+.areaText {
+  font-size: 20px;
+  color: #fff
+}
+.iconWeather {
+  margin: 20px 0 20px 0;
+}
+.temText {
+  font-size: 72px;
+  color: #fff
+}

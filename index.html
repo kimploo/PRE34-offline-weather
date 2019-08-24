@@ -10,33 +10,31 @@
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
   <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
-  <body class="light-grey">
+<body >
      <div class="content" style="max-width:1400px">
 
       <!-- Header -->
-      <header class="center">
-        <h1><b>Weather Information</b></h1>
-        <p>Welcome to the Weather of <span class="tag">장채원 & 김홍식</span></p>
-      </header>
+        <header class="center">       
+          <span class="box_input"><input type="text" title="검색어 입력" maxlength="255"></span>
+          <span><button type="submit" class="bt_search"><img src="https://findicons.com/files/icons/2796/metro_uinvert_dock/128/search.png" height="42" width="42"></button></span>
+        
+        </header>
 
       <!-- Grid -->
       <div id="grid" class="center">
-        <span><input type="text" title="검색어 입력" maxlength="255"></span>
-        <span><button type="submit"><img src="https://findicons.com/files/icons/2796/metro_uinvert_dock/128/search.png" height="42" width="42"></button></span>
+        
         <ui>
-            <li><div class="textClass">강남구</div></ui>
-            <li><div class="textClass"><img src='icon_cloudy.png'></div></ui>
-            <li><div class="textClass">21C</div></ui>
-            <li><div class="textClass">어제보다 4도 낮아요</div></ui>
-            <li><div class="textClass">오늘 하루의 날씨 - 오전 / 오후</div><div>오늘 하루의 날씨 - 오전 / 오후</div></ui>
-        <ui>
+            <li><h3><b>Weather Information</b></h3></li>
+            <li><p>Welcome to the Weather of <span class="tag">장채원 & 김홍식</span></p></li>
+            <li><div class="areaText">강남구</div></li>
+            <li><div class="iconWeather"><img src='icon_cloudy_w.png'></div></li>
+            <li><div class="temText">21C</div></li>
+            <li><div class="yesterdayTem">어제보다 <b>4도</b> 낮아요</div></li>
+            <li><div class="textClass">오늘 하루의 날씨 - 오전 / 오후</div><div>오늘 하루의 날씨 - 오전 / 오후</div></li>
+        </ui>
         <!-- Tweet lists -->
-        <div class="">
-  
-          </div>
-          <hr>
+        <hr>
 
           <!-- END BLOG ENTRIES -->
         </div>
